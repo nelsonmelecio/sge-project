@@ -1,3 +1,5 @@
+/install-master
+/cms
 /node_modules
 /public/storage
 /storage/*.key
