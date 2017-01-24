@@ -46,6 +46,9 @@ template {
 a {
   background-color: transparent;
 }
+.nav.in li a, .nav .dropdown a .fa {
+  color: #fff !important;  
+}
 a:active,
 a:hover {
   outline: 0;
@@ -4396,11 +4399,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #0099CC;
+  border-color: #C3E4ED;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #fff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -8397,12 +8400,13 @@ body {
 
 #wrapper {
     width: 100%;
+    background-color: #B2DFEE;
 }
 
 #page-wrapper {
     padding: 0 15px;
     min-height: 568px;
-    background-color: #fff;
+    background-color: #C3E4ED;
 }
 
 @media(min-width:768px) {
